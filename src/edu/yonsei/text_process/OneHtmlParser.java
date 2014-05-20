@@ -25,9 +25,9 @@ public class OneHtmlParser {
 	public void parseHtml(String htmlFile) throws Exception
 	{
 		URL url = new URL(htmlFile);
-		Document doc = Jsoup.parse(url, 3000);
+		Document doc = Jsoup.parse(url, 4000);
 		
-		System.out.println(doc.html());
+//		System.out.println(doc.html());
 		
 //		Elements links = doc.getElementsByTag("a");
 //		//for (Element link : links) {
